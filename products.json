@@ -27,7 +27,7 @@
 "aggregations": {
   "home": {
     "count": 3,
-    "inventoryValue": 79894.14
+    "inventoryValue": 74013.66
   },
   "books": {
     "count": 5,
