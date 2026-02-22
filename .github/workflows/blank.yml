@@ -1,0 +1,17 @@
+name: My First Action
+
+on:
+  push:  # Trigger this action when you push code
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # The robot’s computer
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 25ds3000093@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
